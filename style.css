@@ -127,7 +127,7 @@ h2 {
 .header > .container {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 /* || HERO */
