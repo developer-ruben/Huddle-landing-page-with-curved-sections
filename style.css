@@ -481,6 +481,7 @@ p {
   left: 0;
   border-top-right-radius: 1rem;
   background-color: hsl(var(--clr-white));
+  color: hsl(var(--clr-very-dark-cyan));
   padding: 0.8rem;
   font-size: 1rem;
 }
