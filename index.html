@@ -151,7 +151,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__left">
-          <a href="#"
+          <a href="#" aria-label="Link to home page"
             ><img
               class="footer__logo"
               src="./assets/images/logo.svg"
@@ -185,7 +185,7 @@
           </ul>
           <ul class="footer__socials">
             <li class="footer__social-item">
-              <a href="#"
+              <a href="#" aria-label="Link to Facebook"
                 ><img
                   class="footer__social-icon"
                   src="./assets/images/icon-facebook.svg"
@@ -193,7 +193,7 @@
               /></a>
             </li>
             <li class="footer__social-item">
-              <a href="#"
+              <a href="#" aria-label="Link to Instagram"
                 ><img
                   class="footer__social-icon"
                   src="./assets/images/icon-instagram.svg"
@@ -201,7 +201,7 @@
               /></a>
             </li>
             <li class="footer__social-item">
-              <a href="#"
+              <a href="#" aria-label="Link to Twitter"
                 ><img
                   class="footer__social-icon"
                   src="./assets/images/icon-twitter.svg"
@@ -218,6 +218,7 @@
           </p>
           <form class="form" action="#">
             <div class="form__group">
+              <label for="email" class="sr-only">Enter email</label>
               <input class="form__input" type="text" name="email" id="email" />
               <p class="form__error">Check your email please</p>
             </div>
@@ -227,7 +228,7 @@
       </div>
     </footer>
 
-    <footer class="attribution">
+    <div class="attribution">
       <p>
         Challenge by
         <a
@@ -243,7 +244,7 @@
           >Ruben de Man</a
         >.
       </p>
-    </footer>
+    </div>
 
     <script src="./app.js"></script>
   </body>
