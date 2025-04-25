@@ -176,6 +176,8 @@ p {
 .hero__text {
   margin: 0 auto 4.9rem auto;
   max-width: 600px;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 .hero__list {
@@ -360,14 +362,13 @@ p {
 .footer__logo {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7494%)
     hue-rotate(300deg) brightness(99%) contrast(107%);
-  margin-bottom: 2.4rem;
 }
 
 .footer__contacts {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  margin-bottom: 8rem;
+  margin-bottom: calc(8rem - 2.4rem);
   list-style: none;
 }
 
@@ -547,6 +548,11 @@ p {
     margin-bottom: 2.4rem;
     font-size: 2.4rem;
     line-height: 3.6rem;
+  }
+
+  .hero__text {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
   }
 
   .hero__list {
